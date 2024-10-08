@@ -47,3 +47,17 @@ echo
 echo "Muestro como quedó"
 sudo fdisk -l $DISCO
 
+echo
+echo "Formateo particiones: "
+sudo mkfs.ext4 ${DISCO}5
+sudo mkfs.ext4 ${DISCO}6
+sudo mkfs.ext4 ${DISCO}7
+sudo mkfs.ext4 ${DISCO}8
+sudo mkfs.ext4 ${DISCO}9
+sudo mkfs.ext4 ${DISCO}10
+sudo mkfs.ext4 ${DISCO}11
+sudo mkfs.ext4 ${DISCO}12
+sudo mkfs.ext4 ${DISCO}13
+sudo mkfs.ext4 ${DISCO}14
+echo
+
